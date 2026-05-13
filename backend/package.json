@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "build": "node -e \"console.log('Backend is plain JavaScript; no build step required.')\"",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.9",
+    "adm-zip": "^0.5.16",
+    "chromadb": "^3.0.21",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2",
+    "openai": "^6.1.0",
+    "ts-morph": "^25.0.1",
+    "uuid": "^11.1.0"
+  }
+}

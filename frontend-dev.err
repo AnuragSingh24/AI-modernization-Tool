@@ -1,0 +1,7 @@
+npm error Lifecycle script `dev` failed with error:
+npm error code 1
+npm error path C:\Users\anuragsingh\Desktop\AI modernization Tool\frontend
+npm error workspace frontend@1.0.0
+npm error location C:\Users\anuragsingh\Desktop\AI modernization Tool\frontend
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c vite
