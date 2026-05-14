@@ -71,4 +71,5 @@ npm run dev:frontend
 - If `OPENAI_API_KEY` is missing, the app falls back to a locally generated markdown spec.
 
 ## Accuracy Report
-[spec_accuracy_report.pdf](https://github.com/user-attachments/files/27696883/spec_accuracy_report.pdf)
+[Project_Review_Report.pdf](https://github.com/user-attachments/files/27755445/Project_Review_Report.pdf)
+
