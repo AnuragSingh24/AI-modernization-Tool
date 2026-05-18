@@ -9,15 +9,8 @@ Minimal MVP that accepts a ZIP project, extracts technical context, stores light
 - AI/RAG: OpenAI for generation, OpenAI embeddings, ChromaDB vector retrieval, and local keyword fallback when vector services are unavailable
 
 ## Architecture
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1e7f62f8-6ca8-4ae2-9e62-545e59e023a4" />
 
-- Upload ZIP project to the Express backend
-- Extract the ZIP to a temporary workspace
-- Detect React, Node.js, Express, Java, and Spring Boot details from source, `package.json`, Maven, and Gradle files
-- Parse Express APIs, Spring controller APIs, and dependencies
-- Build and store lightweight local context chunks
-- Retrieve relevant context with ChromaDB vector RAG when available, or local keyword scoring as a fallback
-- Send summary context plus retrieved context to OpenAI
-- Save and display `modernization-spec.md`
 
 ## Run
 
